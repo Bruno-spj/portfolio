@@ -1,0 +1,40 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor-fundo-cinza-escuro);
+    border-top: 1px solid var(--cor-fundo-cinza-claro);
+}
+
+.rodape p{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.icone{
+    font-size: 25px;
+    color: var(--cor-fontes-clara);
+    transition: 0.3s ease-in-out;
+    
+}
+
+
+.icone:hover{
+    color: var(--cor-detalhe-verde);
+    font-size: 30px;
+}
+
+
+@media(max-width: 900px){
+    .rodape{
+        flex-direction: column;
+        padding: var(--mobile-padding);
+        gap: 30px;
+    }
+}

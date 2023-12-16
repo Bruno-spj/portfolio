@@ -1,0 +1,46 @@
+.titulo-certificados{
+  padding: 20px;
+    color: var(--cor-detalhe-verde);
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+  .certificados {
+    max-width: 800px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }
+
+  .certificado {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-fundo-cinza-claro);
+    border-radius: 20px;
+  }
+  
+  
+  .certificado:hover{
+    border: 3px solid var(--cor-detalhe-verde);
+  }
+  
+  .certificado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .certificado h3 {
+    margin-top: 10px;
+    color: #ffffff
+  }
+  
+  .certificado p {
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin: 20px 10px;
+
+  }
+  

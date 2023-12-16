@@ -1,0 +1,19 @@
+:root{
+    
+    --cor-fundo-escuro: #000000;
+    --cor-fundo-cinza-escuro: #121212; 
+    --cor-fundo-cinza-claro:#5c5b5b;
+    --cor-detalhe-verde:  #16f72d;
+}
+
+:root{
+    --cor-fontes-clara: #ffffff;
+    --fonte-normal: 1.6rem;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+}
+
+:root{
+    --mobile-padding: 30px;
+}

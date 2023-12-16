@@ -1,0 +1,38 @@
+body{
+    background-color: var(--cor-fundo-escuro);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fonte-normal);
+   
+}
+
+html{
+    font-weight: 300;
+    font-size: 62.5%;
+    color: var(--cor-fontes-clara);
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+   
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-items-no-center{
+    align-items: center;
+}
+
+.section{
+    padding: 7rem 7rem;
+}
