@@ -47,3 +47,9 @@
     }
 
 }
+
+@media(max-width: 425px){
+    .texto-sobre{
+        margin: 0 20px;
+    }
+}

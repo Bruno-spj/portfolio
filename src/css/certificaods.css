@@ -19,6 +19,7 @@
     padding: 10px;
     border: 1px solid var(--cor-fundo-cinza-claro);
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
   }
   
   
@@ -43,4 +44,5 @@
     margin: 20px 10px;
 
   }
+  
   
