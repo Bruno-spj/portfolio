@@ -1,16 +1,12 @@
-
-
 .perfil{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .perfil .tela-cheia{
     min-height: 86vh;
     padding: 50px 0;
-
 }
 
 .foto-perfil{
@@ -47,7 +43,6 @@
     font-size: 25px;
     color: var(--cor-fontes-clara);
     transition: 0.3s ease-in-out;
-    
 }
 
 
@@ -62,5 +57,4 @@
         width: 250px;
         height: 250px;
     }
-
 }

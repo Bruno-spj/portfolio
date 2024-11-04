@@ -5,7 +5,6 @@
     border-radius: 20px;
     margin-top: 80px;
     transition: 0.3s ease-in-out;
-
 }
 
 .texto-sobre p{
@@ -32,20 +31,17 @@
     font-weight: 400;
     margin-left: 20px;
     transition: 0.3s ease-in-out;
-    
 }
 
 .botao:hover{
     background-color: var(--cor-detalhe-verde);
     color: var(--cor-fontes-clara);
-    
 }
 
 @media(max-width: 900px){
     .texto-sobre h1{
        text-align: center;
     }
-
 }
 
 @media(max-width: 425px){
