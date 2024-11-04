@@ -4,10 +4,6 @@
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    
-   
-    
-   
 }
 
 .habilidades{
@@ -15,9 +11,6 @@
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-
 }
 
 .habilidade{
@@ -27,11 +20,9 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     transition: 0.3s ease-in-out;
-
 }
 
 .habilidade h3{
-    
     margin: 20px 0 20px 0;
 }
 
@@ -39,14 +30,11 @@
 .habilidade:hover{
     border-bottom: 1px solid var(--cor-detalhe-verde);
     transform: scale(1.03);
-    
-    
 }
 
 .tecnologias{
     font-size: 100px;
     margin-bottom: 20px;
-    
 }
 
 .tecnologia{
