@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./src/css/rodape.css" />
     <link
       rel="shortcut icon"
-      href="./imagens/favicon-32x32.png"
+      href="./src/imagens/favicon-32x32.png"
       type="image/x-icon"
     />
     <link
@@ -68,369 +68,445 @@
     </header>
 
     <main>
-      <section class="inicio">
-        <div class="container">
-          <div class="row perfil tela-cheia">
-            <img
-              class="foto-perfil"
-              src="./imagens/foto Bruno.jpg"
-              alt="foto do perfil Bruno Silva"
-            />
-            <div class="texto-perfil">
+      <section>
+        <div class="hero">
+          <div class="hero-content">
               <h1>Bruno Da Silva</h1>
-
-              <h3>
-                Análise e Desenvolvimento de Sistema - Desenvolverdor Front End
-              </h3>
-
+              <p>Desenvolvedor Web Full Stack</p>
               <div class="redes-sociais">
-                <a
-                  class="icone"
+                <a class="hero-icon-redes"
                   href="https://www.linkedin.com/in/bruno-da-silva-443b7b144/"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
-
-                <a
-                  class="icone"
-                  href="https://github.com/Bruno-spj"
-                  target="_blank"
-                >
+        
+                <a class="hero-icon-redes" 
+                  href="https://github.com/Bruno-spj" 
+                  target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
-
-                <a
-                  class="icone"
-                  href="https://wa.me/5581987925408"
-                  target="_blank"
-                >
+        
+                <a class="hero-icon-redes"
+                  href="https://web.whatsapp.com/send?phone=5581987925408"
+                  target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
               </div>
-            </div>
           </div>
         </div>
       </section>
 
-      <section class="sobre" id="sobre-mim">
-        <div class="container">
-          <div class="row">
-            <div class="texto-sobre">
-              <h1>Sobre Mim</h1>
-              <p>
-                <strong>Olá, meu nome é Bruno</strong>, e sou um entusiasta de
-                programação apaixonado por transformar linhas de código em
-                soluções inovadoras. Atualmente, sou estudante de programação,
-                buscando constantemente expandir meu conhecimento e aplicar
-                minhas habilidades em projetos desafiadores.
-              </p>
-
-              <a
-                class="botao"
-                href="./src/arquivos/currículo-Bruno.pdf"
-                target="_blank"
-                >Veja meu CV</a
-              >
-            </div>
+      <section class="about" id="sobre-mim">
+          <div class="about-container">
+              <div class="about-text">
+                  <h2>Sobre Mim</h2>
+                  <p>Olá! Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Com experiência em desenvolvimento front-end e back-end, busco sempre aprender novas tecnologias e aprimorar minhas habilidades.</p>
+                  <p>Minha jornada na programação começou em 2023, e desde então venho trabalhando em projetos desafiadores que me permitiram desenvolver soluções criativas e eficientes.</p>
+                  <a class="download-curriculo" href="./src/arquivos/Curriculo_Bruno_Silva_Atualizado.pdf" download="Curriculo-Bruno.pdf">Download Currículo</a>
+              </div>
+              <div class="about-image">
+                  <img class="img-perfil" src="./src/imagens/foto Bruno.jpg" alt="foto de perfil Bruno">
+              </div>
           </div>
-        </div>
       </section>
-
-      <div class="container" id="habilidades">
-        <div class="row">
-          <div class="titulo-habilidades">
-            <h1>Habilidades</h1>
-          </div>
-        </div>
-      </div>
-
-      <section class="habilidades section">
+      
+      <section class="habilidades section" id="habilidades">
         <div class="container">
+          <h2 class="section-title">Minhas Habilidades</h2>
           <div class="row tecnologia">
-            <div class="habilidade">
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-html5-plain colored tecnologias"></i>
               </div>
-
               <h3>HTML5</h3>
             </div>
-
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-css3-plain colored tecnologias"></i>
               </div>
-
               <h3>CSS3</h3>
             </div>
-
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-javascript-plain colored tecnologias"></i>
               </div>
-
-              <h3>javaScript</h3>
+              <h3>JavaScript</h3>
             </div>
-
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-git-plain colored tecnologias"></i>
               </div>
-
               <h3>Git</h3>
             </div>
-
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-github-original tecnologias"></i>
               </div>
-
-              <h3>Github</h3>
+              <h3>GitHub</h3>
             </div>
-
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-react-plain colored tecnologias"></i>
               </div>
-
               <h3>React.js</h3>
             </div>
-            <div class="habilidade">
+    
+            <div class="habilidade fade-in">
               <div class="logo">
                 <i class="devicon-typescript-plain colored tecnologias"></i>
               </div>
-
               <h3>TypeScript</h3>
             </div>
           </div>
         </div>
       </section>
 
-      <div class="container" id="certificados">
-        <div class="row">
-          <div class="titulo-certificados">
-            <h1>Certificados</h1>
+      <section class="certificados-section" id="certificados">
+        <div class="container-certificados">
+          <h2 class="section-title" >Certificados</h2>
+        <div class="slider-container">
+          <div class="certificado-lista">
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">DevQuest - Front End</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/certificado-devquest-front-end.png"
+                alt="Certificado DevQuest"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Concluí este certificado com foco em tecnologias essenciais
+                  para a criação de interfaces modernas e responsivas. Durante o
+                  curso, aprofundei meus conhecimentos em HTML, CSS e
+                  JavaScript, além de explorar frameworks e bibliotecas como
+                  React.js.
+                </p>
+              </div>
+            </div>
+            
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">Rocketseat - IA para Devs</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/certificado-IA-para-devs.png"
+                alt="Certificado Rocketseat"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Concluí o curso IA para Devs da Rocketseat, onde aprendi
+                  conceitos fundamentais de inteligência artificial voltados
+                  para aumentar a produtividade no desenvolvimento de software.
+                  O curso abordou desde o uso de IA para otimizar fluxos de
+                  trabalho até ferramentas que auxiliam na escrita de código,
+                  automação de tarefas repetitivas e melhoria na tomada de
+                  decisões técnicas. Esse aprendizado me permite integrar a IA
+                  no meu dia a dia como desenvolvedor, tornando meus processos
+                  mais eficientes e dinâmicos.
+                </p>
+              </div>
+            </div>
+
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">Trybe - JavaScript do Zero</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/certificado-javaScript-trybe.png"
+                alt="Certificado Trybe JavaScript do Zero"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Concluí o curso "JavaScript do Zero" da Trybe, que aborda os fundamentos essenciais da linguagem, incluindo variáveis, tipos de dados, estruturas de controle, funções e manipulação do DOM. Durante o curso, desenvolvi uma base sólida para a criação de aplicações interativas e dinâmicas, reforçando boas práticas de programação e lógica de desenvolvimento.
+                </p>
+              </div>
+            </div>
+
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">Rocketseat - NLW Expert</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/Certificado-Rocketseat-NLW.png"
+                alt="Certificado Rocketseat NLW Expert"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Participei do NLW Expert da Rocketseat, uma imersão intensiva de uma semana focada no desenvolvimento de um projeto completo utilizando HTML, CSS e JavaScript, Git, GitHub. Durante o workshop, aprimorei minhas habilidades na construção de interfaces modernas e interativas, aplicando boas práticas de desenvolvimento web.
+                </p>
+              </div>
+            </div>
+
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">DevQuest - Semana do Zero ao Programador Contratado</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/certificado-szpc-dev-em-dobro.png"
+                alt="Certificado DevQuest"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Concluí este certificado com foco em tecnologias essenciais
+                  para a criação de interfaces modernas e responsivas. Durante o
+                  curso, aprofundei meus conhecimentos em HTML, CSS e
+                  JavaScript. 
+                </p>
+              </div>
+            </div>
+
+            <div class="certificado">
+              <div class="certificado-header">
+                <h2 class="titulo-certificado">Rocketseat Trilha - Discover</h2>
+              </div>
+              <img
+                class="imagem-certificado"
+                src="./src/imagens/certificado-trilha-discover-rocketeseat.png"
+                alt="Certificado Rocketseat Discover"
+              />
+              <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                  Concluí a Trilha Discover da Rocketseat, um curso introdutório que aborda os conceitos fundamentais da programação web front-end. Durante o aprendizado, estudei HTML, CSS e JavaScript, compreendendo desde a estruturação de páginas até a criação de interações dinâmicas.
+                  Esse certificado demonstra minha base sólida no desenvolvimento web e minha dedicação ao aprimoramento contínuo na área de tecnologia.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <section class="certificados section">
-        <div class="certificado">
-          <img
-            src="./imagens/certificado-devquest-front-end.png"
-            alt="Certificado de Conclusão do Curso Front End do devQuest"
-          />
-          <h3>DevQuest- Front End</h3>
-
-          <p>
-             Curso de Desenvolvimento Web Front End pela DevQuest, onde aprimorei minhas habilidades em HTML, CSS, JavaScript e React. O curso foi focado em práticas de desenvolvimento modernas, criação de interfaces interativas e projetos que simularam desafios do mercado real.
-          </p>
-        </div>
-
-        <div class="certificado">
-          <img
-            src="imagens/certificado-trilha-discover-rocketeseat.png"
-            alt="Certificado de Conclusão do Curso trilha Discover"
-          />
-          <h3>Rocketseat- Trilha Discover</h3>
-          <p>
-            Treinamento com carga horária de 2h:23, aonde foram aplicados as
-            disciplinas: fundamentos da programação, funcionamentos de
-            computadores internet.
-          </p>
-        </div>
-
-        <div class="certificado">
-          <img
-            src="./imagens/certificado-IA-para-devs.png"
-            alt="Certificado de Conclusão do Curso IA para Devs"
-          />
-          <h3>Rocketseat- IA para Devs</h3>
-
-          <p>
-            Evento realizado nos dias 14, 15 e 16 de Agosto de 2023, com aulas
-            ao vivo com introdução da Inteligência Artificial na programação.
-          </p>
-        </div>
-
-        <div class="certificado">
-          <img
-            src="./imagens/certificado-javaScript-trybe.png"
-            alt="Certificado de Conclusão do Curso de javaScript do Zero"
-          />
-          <h3>Trybe- javaScript do Zero</h3>
-
-          <p>
-            Curso da linguagem de programação javaScript, com carga horária de
-            10 horas, em junho de 2023.
-          </p>
-        </div>
-
-        <div class="certificado">
-          <img
-            src="./imagens/Certificado-Rocketseat-NLW.png"
-            alt="Certificado de Participação"
-          />
-          <h3>NLW Expert trilha de HTML, CSS e Javascript</h3>
-
-          <p>
-            Evento realizado no dia 10, de Fevereiro de 2024, com aulas ao vivo
-            com introdução das Tecnologias HTML5, CSS3, e javaScript, Com carga
-            horária de 5 horas.
-          </p>
+        <div class="navegacao">
+          <div class="indicadores"></div>
         </div>
       </section>
+        
+      <section class="projetos" id="projetos">
+        <div class="container">
+          <h2 class="section-title">Meus Projetos</h2>
+          <div class="projects-grid">
+            
+            <div class="project-card fade-up">
+              <img src="./src/imagens/tela-inicial-projeto api-github.png" alt="Projeto 1" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Github fetch api</h3>
+                <p class="project-description">
+                  Projeto acadêmico desenvolvido no curso DevQuest, que permite buscar e exibir informações de um perfil do GitHub por meio da API oficial da plataforma. Utilizando HTML5, CSS3 e JavaScript, a aplicação consome a API do GitHub para apresentar dados como nome de usuário, bio, seguidores, repositórios e outras informações relevantes. Esse projeto reforça conceitos de manipulação de DOM, requisições assíncronas e consumo de APIs REST.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">API</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Bruno-spj/github-fetch-api.git" class="project-link code-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="project-card fade-up">
+              <img src="./src/imagens/Quiz-de-perguntas.png" alt="Projeto 2" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Quiz de Perguntas</h3>
+                <p class="project-description">
+                  Projeto desenvolvido durante o evento NLW da Rocketseat, focado em testar e reforçar conhecimentos sobre JavaScript por meio de um quiz interativo. Utilizando HTML5, CSS3 e JavaScript, a aplicação apresenta perguntas sobre a linguagem, permitindo ao usuário responder e receber feedback imediato sobre seu desempenho. O projeto explora conceitos como manipulação do DOM, eventos e lógica de programação, proporcionando uma experiência dinâmica e educativa.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://bruno-spj.github.io/nlw-rocketseat-quiz/" class="project-link demo-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Site
+                  </a>
+                  <a href="https://github.com/Bruno-spj/nlw-rocketseat-quiz.git" class="project-link code-link"       target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="project-card fade-up">
+              <img src="./src/imagens/calculadora-js.png" alt="Projeto 3" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Calculadora JavaScript</h3>
+                <p class="project-description">
+                  Uma calculadora simples e funcional desenvolvida com HTML5, CSS3 e JavaScript. O projeto permite realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão, com uma interface intuitiva e responsiva. Utilizando manipulação do DOM e eventos, a aplicação proporciona uma experiência fluida e interativa para o usuário.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://bruno-spj.github.io/calculadora-js/" class="project-link demo-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Site
+                  </a>
+                  <a href="https://github.com/Bruno-spj/calculadora-js.git" class="project-link code-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
 
-      <div class="container" id="projetos">
-        <div class="row">
-          <div class="titulo-projetos">
-            <h1>Projetos</h1>
+            <div class="project-card fade-up">
+              <img src="./src/imagens/App-previsão-do-tempo.png" alt="Projeto 4" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Aplicativo de Previsão do Tempo</h3>
+                <p class="project-description">
+                  Aplicação web que exibe a previsão do tempo de qualquer cidade, utilizando HTML5, CSS3 e JavaScript. O projeto consome uma API de previsão do tempo para obter dados como temperatura, umidade e condições climáticas em tempo real. Com uma interface intuitiva e responsiva, a aplicação permite ao usuário pesquisar diferentes localidades e visualizar as informações meteorológicas de forma clara e dinâmica.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">API</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://bruno-spj.github.io/app-previsao-do-tempo/" class="project-link demo-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Site
+                  </a>
+                  <a href="https://github.com/Bruno-spj/app-previsao-do-tempo.git" class="project-link code-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card fade-up">
+              <img src="./src/imagens/pokemon.png" alt="Projeto 5" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Pokédex</h3>
+                <p class="project-description">
+                  Projeto desenvolvido com React, TypeScript, Vite, HTML5 e CSS, que oferece uma listagem interativa e dinâmica dos Pokémons. A aplicação consome a API Pokémon para exibir informações detalhadas sobre cada Pokémon, incluindo nome, imagem, tipo e habilidades. Utilizando TypeScript para garantir a tipagem forte e evitar erros comuns, o projeto é otimizado com Vite para um carregamento rápido e uma experiência fluida para o usuário. Com uma interface moderna e responsiva, a Podédex permite aos usuários explorar e pesquisar seus Pokémons favoritos de forma prática e eficiente.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">API</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                  <span class="tech-tag">Vite</span>
+                  <span class="tech-tag">React</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Bruno-spj/pokedex-desafio-devquest.git" class="project-link code-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card fade-up">
+              <img src="./src/imagens/img-ice-solar.png" alt="Projeto 6" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Landing Page IceSolar</h3>
+                <p class="project-description">
+                  Projeto autoral desenvolvido para a IceSolar, uma empresa especializada em serviços de ar-condicionados e energia fotovoltaica. A landing page foi criada utilizando HTML5, CSS3 e JavaScript, com foco em apresentar de forma clara e atrativa os serviços oferecidos pela empresa. Com um design moderno e responsivo, a página oferece uma experiência agradável ao usuário, destacando os principais produtos e soluções em energia sustentável e climatização. A interação com os elementos da página foi otimizada para facilitar o engajamento, com chamadas à ação que incentivam o contato direto com a empresa.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://bruno-spj.github.io/icesolar/" class="project-link demo-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Site
+                  </a>
+                  <a href="https://github.com/Bruno-spj/icesolar.git" class="project-link code-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Link do Repositório
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-        </div>
-      </div>
-
-      <section class="projetos section">
-        <div class="projeto">
-          <img src="./imagens/barbearia-dev.png" alt="Projeto barbearia" />
-          <h3>Barbearia Dev</h3>
-          <p>Este projeto é uma landing page comércial de uma barbearia.</p>
-          <a href=" https://bruno-spj.github.io/dev-barber/" target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img
-            src="./imagens/X-men.png"
-            alt="Projeto seleção de personagens X-Men"
-          />
-          <h3>X-Men</h3>
-          <p>Projeto seleção de personagens do anime X-Men Evolution.</p>
-          <a href="https://bruno-spj.github.io/x-men/" target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img
-            src="./imagens/calculadora-js.png"
-            alt="Projeto calculadora javaScript"
-          />
-          <h3>Calculadora JS</h3>
-          <p>
-            Projeto calculadora simples para efetuar as 4 operações matemáticas.
-          </p>
-          <a href="https://bruno-spj.github.io/calculadora-js/" target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img src="./imagens/pokemon.png" alt="Projeto Listagem de pokémon" />
-          <h3>Pokémon</h3>
-          <p>Listagem baseada no anime Pokémon.</p>
-          <a
-            href="https://github.com/Bruno-spj/pokedex-desafio-devquest.git"
-            target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img
-            src="./imagens/tela-inicial-gta-v.png"
-            alt="Projeto site GTA-V"
-          />
-          <h3>GTA V</h3>
-          <p>
-            Site baseado no lançamento do jogo GTA V da franquia de jogos GTA.
-          </p>
-          <a href="https://bruno-spj.github.io/site-gta-v/" target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img
-            src="./imagens/App-previsão-do-tempo.png"
-            alt="Projeto App previsão do tempo"
-          />
-          <h3>App de Previsão do Tempo</h3>
-          <p>
-            App para previsão do Tempo em diversas cidadas ao redor do mundo.
-          </p>
-          <a
-            href="https://bruno-spj.github.io/app-previsao-do-tempo/"
-            target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-
-        <div class="projeto">
-          <img
-            src="./imagens/Quiz-de-perguntas.png"
-            alt="Projeto Quiz de perguntas"
-          />
-          <h3>Quiz de Perguntas</h3>
-          <p>Quiz de perguntas sobre a linguagem de programação javaScript.</p>
-          <a
-            href="https://bruno-spj.github.io/nlw-rocketseat-quiz/"
-            target="_blank"
-            >🔗Ver Projeto</a
-          >
-        </div>
-        <div class="projeto">
-          <img
-            src="./imagens/tela-inicial-projeto api-github.png"
-            alt="Projeto Quiz de perguntas"
-          />
-          <h3>Github fetch api</h3>
-
-          <p>
-            Este projeto é um que consome a API do GitHub para exibir
-            informações de um usuário específico.
-          </p>
-          <a
-            href="https://github.com/Bruno-spj/github-fetch-api.git"
-            target="_blank"
-            >🔗Ver Projeto</a
-          >
         </div>
       </section>
     </main>
 
-    <footer class="rodape section" id="contato">
-      <div class="contato">
-        <h3>Contato</h3>
-
-        <p>Email: bruno_spj@hotmail.com</p>
-
-        <p>Telefone: (81)987925408</p>
+    <footer class="footer" id="contato">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3 class="footer-title">Contato</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:bruno_spj@hotmail.com">bruno_spj@hotmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+5581987925408">(81) 987925408</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-section">
+          <h3 class="footer-title">Sobre</h3>
+          <p>Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e experiências digitais únicas.</p>
+        </div>
+    
+        <div class="footer-section">
+          <h3 class="footer-title">Redes Sociais</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/bruno-da-silva-443b7b144/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Bruno-spj" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://web.whatsapp.com/send?phone=5581987925408" target="_blank" class="social-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
       </div>
-
-      <div class="redes-sociais">
-        <a
-          class="icone"
-          href="https://www.linkedin.com/in/bruno-da-silva-443b7b144/"
-          target="_blank"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-
-        <a class="icone" href="https://github.com/Bruno-spj" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-
-        <a
-          class="icone"
-          href="https://web.whatsapp.com/send?phone=5581987925408"
-          target="_blank"
-        >
-          <i class="fab fa-whatsapp"></i>
-        </a>
+    
+      <div class="copyright">
+        <p>&copy; <span id="current-year">2024</span> <strong>Bruno da Silva</strong>. Todos os direitos reservados.</p>
       </div>
-
-      <p>&copy; 2023 <strong>Bruno da Silva</strong></p>
     </footer>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

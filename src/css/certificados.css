@@ -1,48 +1,102 @@
-.titulo-certificados{
-  padding: 20px;
-    color: var(--cor-detalhe-verde);
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+.certificados-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
 }
-  
-  .certificados {
-    max-width: 800px;
-    margin: 20px auto;
-    flex-wrap: wrap;
-    text-align: center;
-    
-  }
 
-  .certificado {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid var(--cor-fundo-cinza-claro);
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-  }
-  
-  
-  .certificado:hover{
-    border: 3px solid var(--cor-detalhe-verde);
-  }
-  
-  .certificado img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
-  
-  .certificado h3 {
-    margin-top: 10px;
-    color: #ffffff
-  }
-  
-  .certificado p {
-    color: #ffffff;
-    letter-spacing: 1px;
-    margin: 20px 10px;
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
 
-  }
-  
-  
+.certificado-lista {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 0;
+}
+
+.certificado {
+  min-width: 100%;
+  padding: 2rem;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.certificado-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-certificado {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.imagem-certificado {
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.imagem-certificado:hover {
+  transform: scale(1.02);
+}
+
+.descricao {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.descricao .titulo {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.descricao .texto {
+  color: #666;
+  line-height: 1.6;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-seta:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.indicadores {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.indicador {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicador.ativo {
+  background: #4caf50;
+}

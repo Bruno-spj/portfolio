@@ -39,19 +39,6 @@
     justify-content: center;
 }
 
-.icone{
-    font-size: 25px;
-    color: var(--cor-fontes-clara);
-    transition: 0.3s ease-in-out;
-}
-
-
-.icone:hover{
-    color: var(--cor-detalhe-verde);
-    font-size: 30px;
-}
-
-
 @media(max-width: 425px){
     .foto-perfil{
         width: 250px;

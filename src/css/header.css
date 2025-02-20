@@ -19,7 +19,8 @@
 }
 
 .cabecalho a:hover .fa-code{
-    color: var(--cor-detalhe-verde);
+    color: #292929;
+    transform: scale(1.05);
 }
 
 .cabecalho nav ul{
@@ -36,11 +37,15 @@
     transition: 0.3s;
     letter-spacing: 1px;
     user-select: none;
+    border-radius: 50px;
 }
 
 .cabecalho nav ul li a:hover{
-    color: var(--cor-detalhe-verde);
-    border-bottom: 1px solid var(--cor-detalhe-verde);
+    background: linear-gradient(135deg, #292929, #5a5a5a);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 50px;
 }
 
 /*Estilo do menu em mobile*/
